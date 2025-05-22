@@ -34,9 +34,6 @@ public class Evaluacion {
         this.Estado=Estado;
         this.Puntaje=Puntaje;
         this.Nota=Nota;
-    } //Constructor para creacion de usuarios nuevos sin id
-
-}
-public class Evaluacion {
+    } 
 
 }
