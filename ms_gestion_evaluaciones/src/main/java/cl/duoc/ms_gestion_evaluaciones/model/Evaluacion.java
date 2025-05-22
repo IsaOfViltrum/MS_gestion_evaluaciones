@@ -32,5 +32,4 @@ public class Evaluacion {
         this.Estado=Estado;
         this.Puntaje=Puntaje;
         this.Nota=Nota;
-    } 
 }
