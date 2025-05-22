@@ -23,7 +23,6 @@ public class Evaluacion {
     private Long id;
     private String NombreEstudiante,Tipo, Seccion,Materia,Periodo,Estado;
     private int Puntaje,Nota;
-    
     public Evaluacion(String NombreEstudiante, String Tipo, String Seccion, String Materia, String Periodo, String Estado,int Puntaje,int Nota){
         this.NombreEstudiante=NombreEstudiante;
         this.Tipo=Tipo;
@@ -34,5 +33,4 @@ public class Evaluacion {
         this.Puntaje=Puntaje;
         this.Nota=Nota;
     } 
-
 }
