@@ -9,7 +9,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -24,7 +23,7 @@ public class Evaluacion {
     private Long id;
     private String NombreEstudiante,Tipo, Seccion,Materia,Periodo,Estado;
     private int Puntaje,Nota;
-
+    
     public Evaluacion(String NombreEstudiante, String Tipo, String Seccion, String Materia, String Periodo, String Estado,int Puntaje,int Nota){
         this.NombreEstudiante=NombreEstudiante;
         this.Tipo=Tipo;
