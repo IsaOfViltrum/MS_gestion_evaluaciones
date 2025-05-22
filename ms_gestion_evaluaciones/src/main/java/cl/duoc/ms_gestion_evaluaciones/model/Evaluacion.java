@@ -15,16 +15,15 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 @Entity
-@Table(name = "Evaluacion") // Puedes personalizar el nombre según tu tabla en Oracle
-
+@Table(name = "Evaluacion") 
 public class Evaluacion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // id automatico autoincrementable
     private Long id;
-    private String NombreEstudiante,Tipo, Seccion,Materia,Periodo,Estado;
+    private String nombreEstudiante,Tipo, Seccion,Materia,Periodo,Estado;
     private int Puntaje,Nota;
-    public Evaluacion(String NombreEstudiante, String Tipo, String Seccion, String Materia, String Periodo, String Estado,int Puntaje,int Nota){
-        this.NombreEstudiante=NombreEstudiante;
+    public Evaluacion(String nombreEstudiante, String Tipo, String Seccion, String Materia, String Periodo, String Estado,int Puntaje,int Nota){
+        this.nombreEstudiante=nombreEstudiante;
         this.Tipo=Tipo;
         this.Seccion=Seccion;
         this.Materia=Materia;
@@ -32,4 +31,5 @@ public class Evaluacion {
         this.Estado=Estado;
         this.Puntaje=Puntaje;
         this.Nota=Nota;
+}
 }
